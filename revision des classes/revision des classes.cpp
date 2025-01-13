@@ -20,7 +20,7 @@ int main()
     breakable.GetHealth();
     breakable.TakeDamage(1);
     breakable.GetHealth();
-    monster.move(100, 100,5,1,0);
+    monster.move(15, 15,5,1,0);
     monster.GetX();
     monster.GetY();
     player.Attack(monster, 10);
